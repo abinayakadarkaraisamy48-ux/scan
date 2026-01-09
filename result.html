@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matching Accessories</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="card">
+
+    <h2>✨ Matching Accessories</h2>
+
+    <!-- UPLOADED IMAGE (NEW ADDITION) -->
+    <h3>Uploaded Dress</h3>
+    <img src="{{ dress_image }}" class="uploaded-dress">
+
+    <!-- ACCESSORIES -->
+    <h3>Accessories</h3>
+
+    <div class="accessories">
+        {% for img in accessories %}
+            <img src="{{ url_for('static', filename='accessories/' + color + '/' + img) }}">
+        {% endfor %}
+    </div>
+
+    <a href="/">
+        <button class="scan-again">Scan Another Dress</button>
+    </a>
+
+</div>
+
+</body>
+</html>

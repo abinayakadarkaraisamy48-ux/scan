@@ -1,0 +1,110 @@
+/* ===== Page Background ===== */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Main Card ===== */
+.card {
+    background: #ffffff;
+    width: 360px;
+    padding: 25px 20px;
+    border-radius: 14px;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/* ===== Headings ===== */
+.card h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #c2185b;
+    font-size: 22px;
+}
+
+.card h3 {
+    margin: 15px 0 8px;
+    color: #444;
+    font-size: 16px;
+}
+
+/* ===== File Input ===== */
+input[type="file"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+/* ===== Buttons ===== */
+button {
+    margin-top: 12px;
+    background-color: #e91e63;
+    color: #ffffff;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #c2185b;
+}
+
+/* ===== Uploaded Dress Image ===== */
+.uploaded-dress {
+    width: 210px;
+    max-width: 100%;
+    margin: 12px auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Accessories Container ===== */
+.accessories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+/* ===== Accessories Images ===== */
+.accessories img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.accessories img:hover {
+    transform: scale(1.1);
+}
+
+/* ===== Scan Again Button ===== */
+.scan-again {
+    margin-top: 18px;
+    background-color: #f06292;
+}
+
+.scan-again:hover {
+    background-color: #d81b60;
+}
+
+/* ===== Links ===== */
+a {
+    text-decoration: none;
+}
