@@ -1,0 +1,8 @@
+scan/
+├── app.py
+├── templates/
+│   ├── index.html
+│   └── result.html
+├── static/
+│   └── style.css
+├── README.md
